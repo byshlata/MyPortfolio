@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.237b807c.css",
+    "main.js": "/MyPortfolio/static/js/main.24eaea31.js",
+    "static/media/backgroundProject.svg": "/MyPortfolio/static/media/backgroundProject.9cd49a7885641e2140c1.svg",
+    "static/media/backgroundSkill.svg": "/MyPortfolio/static/media/backgroundSkill.6f13422849fec95b58b6.svg",
+    "index.html": "/MyPortfolio/index.html",
+    "main.237b807c.css.map": "/MyPortfolio/static/css/main.237b807c.css.map",
+    "main.24eaea31.js.map": "/MyPortfolio/static/js/main.24eaea31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.237b807c.css",
+    "static/js/main.24eaea31.js"
+  ]
+}
