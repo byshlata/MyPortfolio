@@ -1,0 +1,30 @@
+.button
+  display: inline-block
+  width: 100%
+  height: 100%
+  line-height: 2em
+  padding: 0 5px 0 5px
+  text-align: center
+  text-decoration: none
+  user-select: none
+  color: rgb(0,0,0)
+  outline: none
+  border-radius: 2px
+  border: 1px solid rgba(0,0,0,.4)
+  text-transform: uppercase
+  transition: .2s ease-in-out
+  font-weight: bold
+  box-sizing: border-box
+  &:hover:not(:active)
+    border: 1px solid rgba(0,0,0,.4)
+    box-shadow: 0 0 3px rgba(0,0,0,.5)
+
+.button:active
+  background: linear-gradient(rgb(250,250,250), rgb(235,235,235))
+  box-shadow: 0 0 3px rgba(0,0,0,.5) inset 0 1px 1px 1px rgba(255,255,255,.4) 0 -1px 1px 1px rgba(0,0,0,.1)
+
+
+.buttonWrapper
+  height: 2em
+  border: 3px solid transparent
+  border-image: linear-gradient(to left top, rgb(59, 24, 73) 20%,  transparent 40%, transparent 60%, rgb(59, 24, 73) 90%) 1

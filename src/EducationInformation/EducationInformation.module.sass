@@ -1,0 +1,26 @@
+.infoWrapper
+  display: flex
+  align-items: center
+  background-color: rgba(0, 0, 0, 0.7)
+  border: 3px solid transparent
+  border-image: linear-gradient(to left top, rgb(255, 255, 255) 20%,  transparent 40%, transparent 60%, rgb(255, 255, 255) 90%) 1
+
+.infoWrapper li
+  list-style-type: none
+  width: 100%
+  font-size: 16px
+  text-align: start
+
+.infoWrapper ul
+  padding: 10px
+  margin: 0
+
+.infoWrapper ul li span
+  &:first-child
+    font-weight: bold
+    font-size: 16px
+    text-transform: uppercase
+  &:nth-last-child
+    margin: 5px
+
+

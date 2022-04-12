@@ -1,0 +1,93 @@
+.photoBlockWrapper
+  position: relative
+  width: 300px
+  min-height: 500px
+  transition: all 0.5s ease-in
+  text-align: center
+  display: flex
+  flex-direction: column
+  margin: 15px
+
+@media (max-width: 385px)
+  .photoBlockWrapper
+    min-height: 560px
+
+.textSpan
+  margin: 20px 0 0 0
+  text-align: start
+  font-weight: bold
+  font-size: 16px
+  text-transform: uppercase
+  display: block
+
+.skillsBlock
+  width: 100%
+  display: flex
+  margin: 5px 0 0 5px
+  flex-wrap: wrap
+
+.skillItem
+  margin: 5px
+  background-color: rgba(255, 255, 255, 0.7)
+  border-radius: 3px
+  padding: 2px
+
+.back
+  transform: rotateY(-180deg)
+
+.frontClose
+  transform: rotateY(180deg)
+
+.backOpen
+  transform: rotateY(0deg)
+
+.front, .back
+  position: absolute
+  width: 100%
+  height: 100%
+  box-sizing: border-box
+  transition: all 0.5s ease-in
+  color: white
+  background: url(../../../public/svgBackground/backgroundSkill.svg) center center/cover no-repeat
+  padding: 10px
+  backface-visibility: hidden
+  border: 7px solid transparent
+
+.imgBlock, .imgPhoto
+  position: absolute
+  top: 5%
+  right: 50%
+  transform: translateX(50%)
+
+.imgPhoto
+  width: 400px
+  top: 0
+
+.imgBlock
+  width: 250px
+  height: 250px
+  overflow: hidden
+  border-radius: 50%
+  border: 10px solid white
+
+@media (max-width: 385px)
+  .imgBlock
+    width: 220px
+    height: 220px
+  .imgPhoto
+    width: 300px
+
+
+.boxPositionOneButton, .boxPositionTwoButton
+  position: absolute
+  bottom: 3%
+  right: 50%
+  width: 7em
+  transform: translateX(50%)
+
+.boxPositionTwoButton
+  display: flex
+  width: 100%
+  justify-content: space-around
+
+

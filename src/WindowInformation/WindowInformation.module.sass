@@ -1,0 +1,29 @@
+@import "src/sass/color.module"
+
+
+.windowInformation, .windowInformationOpen
+  padding: 10px 10px 10px 20px
+  width: 100%
+  height: 100%
+  position: absolute
+  background-color: rgba(0, 0, 0, .9)
+  transition: 0.5s
+  top: 0
+  z-index: 50
+  box-sizing: border-box
+
+.windowInformation
+  left: -120%
+
+.windowInformationOpen
+  left: 0
+
+.titleTextWindowInformation
+  text-transform: uppercase
+  color: $mainColorTextLightTheme
+
+.textWindowInformation
+  color: $mainColorTextLightTheme
+  text-indent: 15px
+  font-size: 14px
+

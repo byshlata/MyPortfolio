@@ -1,0 +1,37 @@
+@import "src/sass/color.module"
+
+
+
+.inputWrapper
+  width: 100%
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  margin-bottom: 20px
+  box-sizing: border-box
+
+.inputItem
+  width: 70%
+  padding: 12px
+  border: 1px solid #ccc
+  border-radius: 4px
+  resize: vertical
+
+
+
+.labelItem
+  font-size: 16px
+  font-weight: bold
+  color: $mainColorTextDark
+  margin: 0
+
+
+@media (max-width: 768px)
+  .inputWrapper
+    flex-direction: column
+
+  .inputItem
+    width: 90%
+  .labelItem
+    align-self: start
+

@@ -1,0 +1,60 @@
+@import "src/sass/color.module"
+
+
+$widthHamburger: 30px
+
+
+.containerHamburger
+  width: $widthHamburger
+  height: $widthHamburger
+  position: absolute
+  top: 0
+  right: 0
+
+.menu
+  height: 100%
+  width: 100%
+  position: relative
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
+  z-index: 100
+  &:hover
+    cursor: pointer
+
+.hamburgerIcon
+  height: $widthHamburger / 10
+  width: $widthHamburger * 0.6
+  position: absolute
+  top: 50%
+  left: 50%
+  border-radius: $widthHamburger / 2
+  background-color: $mainColorTextLightTheme
+  transform: translate(-50%,-50%) rotate(0deg)
+  transition: all ease 0.5s
+  &::before,&::after
+    content: ""
+    position: absolute
+    height: inherit
+    border-radius: inherit
+    background-color: inherit
+    margin: auto
+    width: 50%
+    transition: all ease 0.5s
+  &::before
+    top: -($widthHamburger / 5)
+    left: 0
+    transform-origin: left
+  &::after
+    bottom: -($widthHamburger / 5)
+    right: 0
+    transform-origin: right
+
+.open
+  transform: translate(-50%,-50%) rotate(135deg)
+  &::before
+    top: 0
+    transform: translateX(100%) rotate(-90deg)
+  &::after
+    bottom: 0
+    transform: translateX(-100%) rotate(-90deg)
