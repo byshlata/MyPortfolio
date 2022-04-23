@@ -12,7 +12,7 @@ export const Footer = () => {
     return (
         <div className={s.contacts}>
             <div className={containerStyle.container}>
-                <Title title={'Aliaksand Rudnitsky'} directionLine={'leftLine'}/>
+                <Title title={''} directionLine={'leftLine'}/>
                 <div className={s.socialWrapper}>
                     <IconInstagram/>
                     <IconFacebook/>

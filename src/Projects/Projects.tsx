@@ -3,6 +3,7 @@ import s from './Projects.module.sass'
 import containerStyle from '../sass/container.module.sass'
 import {Title} from "../Title/Title";
 import {Project, ProjectType} from "./Project/Project";
+import {SliderContainerProject} from "../Slider/SliderContainerProject";
 
 
 const projects: ProjectType[] = [
@@ -25,7 +26,7 @@ export const Projects = () => {
             <div className={containerStyle.container}>
                 <Title title={'Project'} directionLine={'leftLine'}/>
                 <div className={s.projectsWrapper}>
-                    {projects.map(m => <Project key={m.title} title={m.title} description={m.description} technology={m.technology} imgProject={m.imgProject}/>)}
+                    <SliderContainerProject arrayProject={projects}/>
                 </div>
             </div>
         </div>

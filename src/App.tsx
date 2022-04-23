@@ -6,6 +6,7 @@ import {Skills} from "./Skills/Skills";
 import {Projects} from "./Projects/Projects";
 import {Contacts} from "./Contacts/Contacts";
 import {Footer} from "./Footer/Footer";
+import {SliderContainerSkills} from "./Slider/SliderContainerSkills";
 
 function App() {
     return (

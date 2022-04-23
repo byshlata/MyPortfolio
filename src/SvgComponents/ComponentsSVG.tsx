@@ -12,7 +12,7 @@ import {LogoSVGAxios} from "./LogoSVGAxios";
 import {LogoSVGMui} from "./LogoSVGMui";
 import { v1 } from "uuid";
 
-const svgWidthSkills = '50px'
+const svgWidthSkills = '120px'
 
 export const ComponentsSVG = {
     skills: ['React', 'Redux', 'HTML', 'JavaScript', 'TypeScript', 'Sass', 'Css', 'Unit test', 'StoryBook', 'Axios', 'Material UI' ] as const,
@@ -41,7 +41,7 @@ export const ComponentsSVG = {
 
 }
 
-const svgWidthProject = '30px'
+const svgWidthProject = '50px'
 
 export const ComponentsSVGProject = {
 

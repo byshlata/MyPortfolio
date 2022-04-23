@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(30, 32, 40, 1);
+  background: url(../public/img/page/backgraund3.jpg) center center/cover no-repeat
 }
 
 code {
