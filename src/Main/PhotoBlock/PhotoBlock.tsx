@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import s from './PhotoBlock.module.sass'
 import {Button} from "../../Button/Button";
 import {EducationInformation} from "../../EducationInformation/EducationInformation";
-import {ComponentsSVGProject} from "../../SvgComponents/ComponentsSVG"
+import {ComponentsSVGPhotoBlock} from "../../SvgComponents/ComponentsSVG"
 
 
 const skills = ['React', 'Redux', 'HTML', 'JavaScript', 'TypeScript', 'Sass', 'Css', 'Unit test', 'StoryBook', 'Axios', 'Material UI'] as const;
@@ -30,7 +30,7 @@ export const PhotoBlock = () => {
                 <EducationInformation/>
                 <span className={s.textSpan}>Skills:</span>
                 <div className={s.skillsBlock}>
-                    {skills.map(m => <div key={m} className={s.skillItem}>{ComponentsSVGProject[m]}</div>)}
+                    {skills.map(m => <div key={m} className={s.skillItem}>{ComponentsSVGPhotoBlock[m]}</div>)}
                 </div>
                 <div className={s.boxPositionTwoButton}>
                         <Button title={`\u21E6 Back`} callback={showInformation}></Button>

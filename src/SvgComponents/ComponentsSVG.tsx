@@ -41,7 +41,7 @@ export const ComponentsSVG = {
 
 }
 
-const svgWidthProject = '50px'
+const svgWidthProject = '40px'
 
 export const ComponentsSVGProject = {
 
@@ -66,5 +66,34 @@ export const ComponentsSVGProject = {
     Axios: <LogoSVGAxios key={v1()} width={svgWidthProject} height={svgWidthProject} fill={'#000'}/>,
 
     'Material UI': <LogoSVGMui key={v1()} width={svgWidthProject} height={svgWidthProject}/>
+
+}
+
+
+const svgWidthPhotoBlock = '30px'
+
+export const ComponentsSVGPhotoBlock = {
+
+    React: <LogoSVGReact key={v1()} width={svgWidthPhotoBlock} height={svgWidthPhotoBlock}/>,
+
+    Redux: <LogoSVGRedux key={v1()} width={svgWidthPhotoBlock} height={svgWidthPhotoBlock}/>,
+
+    HTML: <LogoSVGHtml key={v1()} width={svgWidthPhotoBlock} height={svgWidthPhotoBlock}/>,
+
+    JavaScript: <LogoSVGJavaScript key={v1()} width={svgWidthPhotoBlock} height={svgWidthPhotoBlock}/>,
+
+    TypeScript: <LogoSVGTypeScript key={v1()} width={svgWidthPhotoBlock} height={svgWidthPhotoBlock}/>,
+
+    Sass: <LogoSVGSass key={v1()} width={svgWidthPhotoBlock} height={svgWidthPhotoBlock}/>,
+
+    Css: <LogoSVGCss key={v1()} width={svgWidthPhotoBlock} height={svgWidthPhotoBlock}/>,
+
+    'Unit test': <LogoSVGJavaJest key={v1()} width={svgWidthPhotoBlock} height={svgWidthPhotoBlock}/>,
+
+    StoryBook: <LogoSVGStoryBook key={v1()} width={svgWidthPhotoBlock} height={svgWidthPhotoBlock}/>,
+
+    Axios: <LogoSVGAxios key={v1()} width={svgWidthPhotoBlock} height={svgWidthPhotoBlock} fill={'#000'}/>,
+
+    'Material UI': <LogoSVGMui key={v1()} width={svgWidthPhotoBlock} height={svgWidthPhotoBlock}/>
 
 }
