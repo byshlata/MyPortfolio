@@ -1,6 +1,7 @@
 import React, {SyntheticEvent, useState} from 'react';
 import s from './Project.module.sass'
-import imgDefault from '../../img/noPhoto.png'
+import imgDefault from '../../../src/counter.jpg'
+//import imgDefault from '../../img/noPhoto.png'
 import {ComponentsSVGProject} from '../../SvgComponents/ComponentsSVG'
 import {Button} from "../../Button/Button";
 import {Trapezoid} from "../../SvgComponents/Trapezoid";
